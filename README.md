@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Fitness Application
+This is a React-based web application on MUI that helps users find exercises for workouts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots
+![Main page](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/8f5907fa-e27c-49bd-980d-3b98fd3b7ca1)
+![Search section](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/fe44679f-3b68-4e5d-b32b-ccaef80f987b)
+![Suggested exercises](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/53689e36-5e5a-43d7-9f6b-279c880b5e3b)
+![Exercise details page](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/4689a3ee-4ae0-4d2a-bac3-ec0424915a41)
+![Exercise`s videos and similar target body part exercises](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/b176afdb-9497-467e-9451-07096ed26e42)
+![Similar equipment exercises](https://github.com/dgmnkk/React-FitnessApp/assets/125593353/26cad2da-4382-4897-a29f-eddb9266e663)
 
-## Available Scripts
+## Features
+- Search for exercises by name, body part, equipment, and target muscle.
+- View detailed information about each exercise.
+- Watch exercise videos.
+- Explore similar exercises based on target muscle and equipment.
+- Responsive design for a seamless experience on both desktop and mobile devices.
 
-In the project directory, you can run:
+## Technologies
+The project utilizes the following technologies:
+- React.
+- Material-UI.
+- React Router.
+- Fetch API.
+- RapidAPI.
+- CSS.
+- HTML.
 
-### `npm start`
+## Setup
+To set up the project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+  git clone https://github.com/dgmnkk/React-FitnessApp.git
+2. Install the dependencies:
+  npm install
+3. Create a .env file in the root directory and add your RapidAPI key:
+  REACT_APP_RAPID_KEY=your-rapidapi-key
+4. Start the development server:
+  npm start
